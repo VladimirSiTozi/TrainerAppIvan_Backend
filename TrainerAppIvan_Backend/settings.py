@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "TrainerAppIvan_Backend.account.apps.AccountConfig",
+    "TrainerAppIvan_Backend.product.apps.ProductConfig",
+    "TrainerAppIvan_Backend.common.apps.CommonConfig",
+    "TrainerAppIvan_Backend.cart.apps.CartConfig"
 ]
 
 MIDDLEWARE = [
