@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Collage</title>
+    <style>
+        .collage-container {
+            display: flex;
+            gap: 10px;
+            /* width: 100%; */
+            width: auto;
+            margin: auto;
+        }
+        .collage-container img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #000;
+            border-radius: 10px;
+        }
+
+        .big-img img {
+            width: 380px;
+            height: 260px;
+        }
+
+        .sml-img img {
+            width: 180px;
+            height: 260px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="collage-container">
+        <div class="big-img">
+            <img src="assets/images/fight/mma-woman.jpg" alt="Image 1">
+        </div>
+        <div class="sml-img ">
+            <img src="assets/images/fight/mma-woman2.jpg" alt="Image 2">
+        </div>
+        <div class="sml-img ">
+            <img src="assets/images/fight/mma-woman9.jpg" alt="Image 3">
+        </div>
+    </div>
+    <div class="collage-container">
+        <div class="sml-img ">
+            <img src="assets/images/fight/mma-woman5.jpg" alt="Image 4">
+        </div>
+        <div class="sml-img ">
+            <img src="assets/images/fight/mma-woman6.jpg" alt="Image 5">
+        </div>
+        <div class="big-img">
+            <img src="assets/images/fight/mma-woman4.jpg" alt="Image 6">
+        </div>
+    </div>
+</body>
+</html>
