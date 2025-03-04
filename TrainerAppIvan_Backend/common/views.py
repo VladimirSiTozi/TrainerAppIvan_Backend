@@ -10,3 +10,8 @@ class CoachingPageView(TemplateView):
     template_name = 'common/coaching.html'
 
 
+class ArticlePageView():
+    template_name = 'common/articles.html'
+
+
+
